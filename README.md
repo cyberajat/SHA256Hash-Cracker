@@ -20,9 +20,12 @@ Simple and lightweight script
 ```
 git clone https://github.com/cyberajat/SHA256Hash-Cracker.git
 cd SHA256Hash-Cracker
+python3 -m venv pwn-env
+source pwn-env/bin/activate
+pip install --upgrade pip
+pip install pwntools
 ```
 2️⃣ Run the script
-
 ```
 ./cracker.py <sha256_hash>
 ```
@@ -33,13 +36,13 @@ python3 cracker.py <sha256_hash>
 ```
 3️⃣ Example
 ```
-./cracker.py ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898e17f
+./cracker.py 1236dabbe733f0dae4c00ac3135be5498fa16ce4118d8cece6ea8f5d28594d69
 ```
 
 Output:
 ```
-[12345] hello123 == ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898e17f
-[+] Congratulations - Password has Found after [12345] attempts - 'hello123'
+[12345] kalinux == 1236dabbe733f0dae4c00ac3135be5498fa16ce4118d8cece6ea8f5d28594d69
+[+] Congratulations - Password has Found after [12345] attempts - 'kalinux'
 ```
 
 📂 Requirements
