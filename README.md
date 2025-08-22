@@ -19,7 +19,7 @@ Simple and lightweight script
 
 ```
 git clone https://github.com/cyberajat/SHA256Hash-Cracker.git
-cd sha256-cracker
+cd SHA256Hash-Cracker
 ```
 2️⃣ Run the script
 
